@@ -1,0 +1,50 @@
+.registration-container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #007bff; /* Border color */
+    border-radius: 10px;
+    background-color: #1a6390; /* Background color */
+  }
+  
+  .registration-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-group {
+    margin-bottom: 10px;
+  }
+  
+  .input-group label {
+    margin-right: 10px;
+    color: #510744; /* Label text color */
+  }
+  
+  .input-group input,
+  .input-group textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .radio-group label {
+    margin-right: 15px;
+    color: #555; /* Radio button label text color */
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background-color: #1c8829;
+    cursor: not-allowed;
+  }
+  
